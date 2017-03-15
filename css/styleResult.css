@@ -1,0 +1,126 @@
+*
+{
+padding: 0;
+margin:0;
+}
+td:nth-child(1){
+  background-color: #e6faff;
+    color: black;
+}
+td:nth-child(2){
+  background-color: #e0ebeb;
+}
+td:nth-child(3){
+  background-color: #b3d9ff;
+  color: black;
+}
+.content th {
+  background: #000000;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+border-radius: 2px;
+}
+.content td:hover {
+  color: #555;
+background: #f1f1f1;
+text-decoration: underline;
+}
+.content th,.content td {
+  color: #black;
+  border: 1px solid #eee;
+  font-weight: bold;
+}
+.content td{
+  font-size: 15px;
+}
+.next {
+  padding: 8px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #002233;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  margin-left: 60px;
+}
+
+.next:hover {background-color: #3e8e41}
+
+.next:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+@media screen and (min-width: 640px)
+{
+.content table {
+  font-family: 'Verdana';
+  margin: 25px auto;
+  border-collapse: separate;
+border-spacing: 3px;
+  box-shadow:20px 20px 20px #808080;
+border-radius:10px;
+}
+.content td:hover {
+  color: #555;
+background: #f1f1f1;
+text-decoration: underline;
+}
+.content th,.content td {
+  color: #black;
+  border: 1px solid #eee;
+  padding: 19px 1px;
+  font-weight: bold;
+}
+.content td{
+  font-size: 20px;
+}
+.content th {
+  background: #000000;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+border-radius: 2px;
+}
+.content tr, .content td {
+transition: all 1s;
+border-radius: 5px;
+box-shadow: 3px 3px #808080;
+}
+td:nth-child(1){
+  background-color: #e6faff;
+    color: black;
+}
+td:nth-child(2){
+  background-color: #e0ebeb;
+}
+td:nth-child(3){
+  background-color: #b3d9ff;
+  color: black;
+}
+.next {
+  padding: 8px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #002233;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  margin-left: 60px;
+}
+
+.next:hover {background-color: #3e8e41}
+
+.next:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+}

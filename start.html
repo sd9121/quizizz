@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="http://www2.eit.ac.nz/library/images/quiz%20button%20black.png">
+  <title>Online Quizz.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="question-page">
+<header class="header">
+<h1>Online Quiz Test</h1>
+</header>
+<div class="content" id="main-content">
+<table border="0">
+<th colspan="2" id="qus"></th>
+<tr>
+  <td><input type="radio" class="radio-btn" name="op" id="op1" value="">&nbsp;&nbsp;A.</td>
+  <td id="dop1"></td>
+</tr>
+<tr>
+  <td><input type="radio" class="radio-btn" name="op" id="op2" value="">&nbsp;&nbsp;B.</td>
+  <td id="dop2"></td>
+</tr>
+<tr>
+  <td><input type="radio" class="radio-btn" name="op" id="op3" value="">&nbsp;&nbsp;C.</td>
+  <td id="dop3"></td>
+</tr>
+<tr>
+  <td><input type="radio" class="radio-btn" name="op" id="op4" value="">&nbsp;&nbsp;D.</td>
+  <td id="dop4"></td>
+</tr>
+<tr>
+  <td colspan="2" align="center"><input type="button" class="next" name="next" value="next" id="gonext" onclick="nextQuestion()">
+  <span class="notify" id="notify"></span></td>
+</tr>
+</table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="js/refreshStyle.js"></script> -->
+<script type="text/javascript" src="js/question1.js"></script>
+</body>
+</html>

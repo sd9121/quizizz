@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="http://www2.eit.ac.nz/library/images/quiz%20button%20black.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Add Questions</title>
+</head>
+<body class="admin">
+<header class="header">
+<h1>Add Questions</h1>
+</header>
+<div class="link-home">
+<a href="index.html"><h2>Log Out</h2></a>
+</div>
+<div id="add-question" class="add-question">
+<table>
+  <tr>
+    <td colspan="2"><h3>Question</h3></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="text" id="ques" value="" placeholder="Enter Question."></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Option 1</h3></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="text" id="op1" value="" placeholder="Enter Option 1."></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Option 2</h3></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="text" id="op2" value="" placeholder="Enter Option 2."></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Option 3</h3></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="text" id="op3" value="" placeholder="Enter Option 3."></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Option 4</h3></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="text" id="op4" value="" placeholder="Enter Option 4."></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <select class="option" id="option">
+    <option value="A">Option A</option>
+    <option value="B">Option B</option>
+    <option value="C">Option C</option>
+    <option value="D">Option D</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><input type="button" class="next" name="" value="Add" onclick="addQuestion()"></td>
+    <td><input type="button" class="next" name="" value="RESET" onclick="display()"></td>
+  </tr>
+</table>
+</div>
+<script type="text/javascript" src="js/question1.js"></script>
+<script type="text/javascript" src="js/refreshStyle.js"></script>
+</body>
+</html>
